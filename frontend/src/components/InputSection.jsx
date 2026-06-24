@@ -22,11 +22,9 @@ A->`;
   const [text, setText] = useState("");
 
   const handleSubmit = () => {
-
     const arr = text
       .split("\n")
       .map(item => item.trim());
-
     onSubmit(arr);
   };
 
